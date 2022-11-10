@@ -1,0 +1,11 @@
+.menu-btn {
+    display: none;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.AppList {
+    padding-bottom: 10%;
+}
