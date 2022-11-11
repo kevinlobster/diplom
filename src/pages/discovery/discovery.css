@@ -1,0 +1,4 @@
+.discovery {
+    display: flex;
+    flex-direction: column;
+}

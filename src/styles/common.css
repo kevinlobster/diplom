@@ -1,0 +1,92 @@
+:root {
+    --main-bg: #FFFFF4;
+    --submit-bg: #BBFC1A;
+    --active-hover: #0085FF;
+    background-color: var(--main-bg);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+input[type=submit] {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+    width: 60%;
+    background-color: var(--submit-bg);
+    color: black;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+    background-color: var(--active-hover);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+table, td, th {
+    border: 1px solid #595959;
+}
+
+td, th {
+    padding: 3px;
+    width: 30px;
+    height: 25px;
+}
+
+th {
+    background-color: #7accee ;
+}
+
+.submit {
+    margin: auto;
+}
+
+.addButton {
+    margin-bottom: 22px;
+    float: right;
+    background-color:transparent;
+    border: none;
+    border-radius:12px;
+    padding-top: 4px;
+    cursor: pointer;
+}
+
+.addButton:hover {
+    background-color: var(--active-hover); /* Green */
+    color: white;
+}
+
+.hero {
+    max-width: 180px;
+    float: left;
+}
+
+.table-first-line {
+    background-color:#FFDC00;
+}
